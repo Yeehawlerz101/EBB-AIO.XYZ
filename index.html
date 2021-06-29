@@ -42,6 +42,9 @@
     .input{background-color:#f2f2f2;
       border-radius: 2.5px;
       border-color: #bfbfbf;}
+      .video-player:hover{
+        cursor: pointer;
+      }
 </style>
 
 
@@ -241,9 +244,10 @@
       </div>
     </div>
   </div>
+  <!-- 
   <div class="relative max-w-7xl mx-auto px-4">
     <div class="relative h-128">
-      <div class="absolute inset-0 bg-blue-800 bg-opacity-50"></div>
+      <div class="absolute inset-0 bg-red-800 bg-opacity-50"></div>
       <iframe class="h-128 w-full object-cover" src="https://www.youtube.com/embed/GSc3X6RCURQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       
     </div>
@@ -254,6 +258,25 @@
         </svg>
       </a>
     </div>
+  </div>
+-->
+
+  <div class="relative max-w-7xl mx-auto px-4 py-8 ">
+    <div class="relative ">
+      
+         <video  controls poster="./images/training-cover.jpg" class="video-player">
+
+  <source src="./videos/training.mp4" type="video/mp4">
+
+  <source src="./videos/training.ogg" type="video/ogg">
+
+Your browser does not support the video tag. Please upgrade your browser.
+
+</video> 
+      
+    </div>
+
+
   </div>
 </section>
 
